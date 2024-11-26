@@ -1,2 +1,2 @@
-source ./compile_rtl.do
-source ./run.do
+source ./simulation/compile_rtl.do
+source ./simulation/run.do
