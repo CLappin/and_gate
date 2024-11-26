@@ -10,4 +10,3 @@ vmap presynth presynth
 vlog -sv -work presynth "./rtl/vlog/core/and_gate.v"
 vlog -sv -work presynth "./rtl/vlog/test/and_gate_tb.v"
 
-quit
