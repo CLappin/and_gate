@@ -32,6 +32,12 @@ module tb_and_gate;
         apply_and_check(0, 1, 0);
         apply_and_check(1, 0, 0);
         apply_and_check(1, 1, 1);
+		
+		// Testing failing conditions
+		apply_and_check(0, 0, 1);
+        apply_and_check(0, 1, 1);
+        apply_and_check(1, 0, 1);
+        apply_and_check(1, 1, 0);
 
         // Finish simulation
         $finish;
